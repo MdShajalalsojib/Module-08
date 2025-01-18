@@ -1,11 +1,28 @@
-body{
-    background-color: aquamarine;
-}
-.firs-comm{
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    border: 10px;
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content:  center; */
+    /* justify-content: left; */
+    /* justify-content:  right; */
+    /* justify-content:  space-between; */
+    /* justify-content:  space-evenly; */
+    /* justify-content:  space-around;*/
+    justify-content:  space-around;
+    height: 350px;
+    /* align-items: flex-end; */
+    /* align-items:  first baseline; */
+    /* align-items:  flex-start; */
+    /* align-items:  center; */
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
 
+
+} 
+     
+
+.box{
+    border: 2px dashed tomato;
+    width: 100px;
+    height: 100px;
 }
 
